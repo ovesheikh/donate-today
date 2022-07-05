@@ -1,0 +1,76 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+section{
+    padding: 10% 15%;
+}
+h1{
+    font-size: 50px;
+}
+#main-h{
+    font-size: 80px;
+}
+p{
+    font-size: 30px;
+    color: gray;
+}
+#main-p{
+    color: white;
+}
+.header{
+    color: white;
+    text-align: center;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.btn{
+    padding-top: 40px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(8 , 152 , 157), rgb(16, 204, 185));
+    padding: 20px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5%;
+}
+.donate{
+    text-align: center;
+}
+.flex-container{
+    display:flex;
+    color: gray;
+}
+#red-area{
+    color: #e60000;
+    background-color: #ffe6e6;
+    border: 2px solid #e60000;
+}
+.flex-container div{
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    font-weight: 800;
+    width: 10%;
+    height: 10%;
+    margin: 2%;
+    padding: 25px;
+}
+.amount{
+    outline: white;
+    border-bottom-style: groove;
+}
+::placeholder{
+    font-size: 20px;
+    color: gray;
+}
+.plan{
+    text-align: center;
+}
+.plan-box{
+    float: left;
+  width: 33.33%;
+  padding: 50px;
+}
