@@ -37,7 +37,7 @@ p{
     font-weight: 700;
     border-radius: 5%;
 }
-.donate{
+.donate-tab{
     text-align: center;
 }
 .flex-container{
@@ -58,19 +58,61 @@ p{
     margin: 2%;
     padding: 25px;
 }
-.amount{
-    outline: white;
+.bottom-line{
     border-bottom-style: groove;
+   
+}
+#amount{
+    font-size: 20px;
+    line-height: 2px;
+    outline: white;
+    margin-bottom: 10px;
+}
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    background-color: transparent;
 }
 ::placeholder{
     font-size: 20px;
     color: gray;
 }
-.plan{
+.plan-tab{
     text-align: center;
 }
 .plan-box{
+    box-sizing: border-box;
     float: left;
-  width: 33.33%;
-  padding: 50px;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.plan-box p{
+    font-size: 20px;
+}
+.box-tab{
+    display: table;
+    clear: both;
+}
+.food{
+    background-color: rgb(205, 240, 234);
+}
+.shelter{
+    background-color: rgb(247, 217, 217);
+}
+.edu{
+    background-color: rgb(245, 240, 187);
+}
+.footer-tab{
+    text-align: center;
+    padding: 3%;
+    color: white;
+    background-color: black;
+}
+.footer-tab h1{
+    font-family: 'Satisfy', cursive;
+    color: red;
 }
